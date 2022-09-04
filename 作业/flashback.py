@@ -10,7 +10,7 @@ wr=input('请输入一串数字，用逗号分隔：')
 listS=wr.split(',')
 for one in range(0,len(listS)-1):
     if listS[one].isdigit()!=True:
-        print('您的输入有误')
+        print('您的输入有误111')
         exit()
 print (mySort(listS))
 
